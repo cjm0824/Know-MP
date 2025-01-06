@@ -26,6 +26,14 @@ You need to put the source data into the corresponding folder of `Know-MP/data/{
 + `model.py` contains the overall model architechture.
 + `FewRel2_type.py` contains the entire process of obtaining the entity type of FewRel 2.0 valation set.
 + Run `main.py` to call the above two files and start meta-training.
+  
+# Requirements
++ Pytorch>=0.4.1
++ Python3
++ numpy
++ transformers
++ json
++ apex (https://github.com/NVIDIA/apex)
 
 # Citation
 ```bibtex
@@ -37,11 +45,4 @@ You need to put the source data into the corresponding folder of `Know-MP/data/{
   year={2024},
   publisher={Elsevier}
 }
-  
-# Requirements
-+ Pytorch>=0.4.1
-+ Python3
-+ numpy
-+ transformers
-+ json
-+ apex (https://github.com/NVIDIA/apex)
+```
