@@ -25,8 +25,11 @@ You need to put the source data into the corresponding folder of `Know-MP/data/{
 + `train.py` contains fast-tuning model and meta-traning framework
 + `model.py` contains the overall model architechture.
 + `FewRel2_type.py` contains the entire process of obtaining the entity type of FewRel 2.0 valation set.
-+ Run `main.py` to call the above two files and start meta-training. 
++ Run `main.py` to call the above two files and start meta-training.
 
+# Citation
+
+  
 # Requirements
 + Pytorch>=0.4.1
 + Python3
