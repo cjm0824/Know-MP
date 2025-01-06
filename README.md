@@ -28,7 +28,14 @@ You need to put the source data into the corresponding folder of `Know-MP/data/{
 + Run `main.py` to call the above two files and start meta-training.
 
 # Citation
-
+`@article{cui2024knowledge,
+  title={Knowledge-enhanced meta-prompt for few-shot relation extraction},
+  author={Cui, Jinman and Xu, Fu and Wang, Xinyang and Li, Yakun and Qu, Xiaolong and Yao, Lei and Li, Dongmei},
+  journal={Computer Speech \& Language},
+  pages={101762},
+  year={2024},
+  publisher={Elsevier}
+}`
   
 # Requirements
 + Pytorch>=0.4.1
